@@ -27,7 +27,7 @@ def max_inf(jug3):
     maximo = ["name", 0]
     for jugador in jug3:
         contador = (jug3[jugador][0]*1.5 ) + (jug3[jugador][1]*1.25) + (jug3[jugador][2])
-        if contador > max[1]:
+        if contador > maximo[1]:
             maximo[0] = jugador
             maximo[1] = contador
     return maximo[0]  #retorno solo el nombre del jugador mas influyente
